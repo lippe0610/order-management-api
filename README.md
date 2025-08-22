@@ -55,23 +55,8 @@ Plain Text
 
 Para iniciar la API localmente:
 
-```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 La API estará disponible en http://localhost:8000.
 Documentación de la API
 La documentación interactiva (Swagger UI ) está disponible en:
 http://localhost:8000/docs
-Ejecución de Pruebas
-Para ejecutar las pruebas unitarias y de integración:
-Bash
-pytest tests/
-Para ver la cobertura de código:
-Bash
-pytest tests/ --cov=app --cov-report=term-missing
-Despliegue con Docker
-Para construir y ejecutar la aplicación usando Docker Compose:
-Bash
-docker-compose up --build
-La API estará disponible en http://localhost:8000 (o el puerto configurado en docker-compose.yml ).
-Contacto
-Para cualquier consulta o información adicional, por favor, contacte al desarrollador.
+
